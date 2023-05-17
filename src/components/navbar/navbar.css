@@ -18,8 +18,8 @@
 }
 
 .travel__navbar-links_logo img {
-    width: 62.56px;
-    height: 16.02px;
+    width: 120.56px;
+    height: 30.02px;
 }
 
 .travel__navbar-links_container {
@@ -51,7 +51,7 @@
 .travel__navbar-menu_container button {
     padding: 0.5rem 1rem;
     color: #fff;
-    background: #FF4820;
+    background: #CB4B61;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;

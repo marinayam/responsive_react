@@ -5,11 +5,11 @@ import './navbar.css';
 
 const Menu = () => (
   <>
-  <p><a href="#home">Home</a></p>
-  <p><a href="#travel">What is Travel?</a></p>
-  <p><a href="#possibility">Traveling</a></p>
-  <p><a href="#features">Case Studies</a></p>
-  <p><a href="#blog">Library</a></p>
+  <p><a href="#home">ホーム</a></p>
+  <p><a href="#wtravel">私たちについて</a></p>
+  <p><a href="#possibility">会員特典</a></p>
+  <p><a href="#features">サービス</a></p>
+  <p><a href="#blog">ブログ</a></p>
   </>
 )
 
@@ -26,8 +26,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className="travel__navbar-sign">
-        <p>Sign in</p>
-        <button type="button">Sign up</button>
+        <p>ログイン</p>
+        <button type="button">登録</button>
       </div>
       <div className="travel__navbar-menu">
         {toggleMenu
@@ -39,8 +39,8 @@ const Navbar = () => {
             <Menu />
           </div>
           <div className="travel__navbar-menu_container-links-sign">
-            <p>Sign in</p>
-            <button type="button">Sign up</button>
+            <p>ログイン</p>
+            <button type="button">登録</button>
           </div>
         </div>
         )}
